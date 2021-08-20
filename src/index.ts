@@ -1,1 +1,1 @@
-console.log('Hello world!')
+export const foo = 123;
