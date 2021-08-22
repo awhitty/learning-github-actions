@@ -1,31 +1,26 @@
 {
   "compilerOptions": {
+    "target": "es5",
     "lib": [
-      "ESNext",
-      "dom"
+      "dom",
+      "dom.iterable",
+      "esnext"
     ],
-    "outDir": "lib",
-    "removeComments": true,
-    "target": "ES6",
-    "baseUrl": "./",
+    "allowJs": true,
+    "skipLibCheck": true,
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
     "moduleResolution": "node",
-    "paths": {},
-    "sourceMap": true,
-    "sourceRoot": "/",
-    "alwaysStrict": true,
-    "allowUnreachableCode": false,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "noImplicitReturns": true,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
   },
   "include": [
-    "./src/*.ts"
-  ],
-  "exclude": [
-    ".yarn/**/*"
+    "src"
   ]
 }
